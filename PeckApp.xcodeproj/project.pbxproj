@@ -1159,6 +1159,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = STPL;
+				TargetAttributes = {
+					89615A091733A1D60087FA3B = {
+						DevelopmentTeam = P83C3BYK4B;
+					};
+				};
 			};
 			buildConfigurationList = 89615A041733A1D60087FA3B /* Build configuration list for PBXProject "PeckApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1496,7 +1501,7 @@
 		89615A291733A1D60087FA3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Peck (P83C3BYK4B)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Peck (P83C3BYK4B)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1523,7 +1528,7 @@
 		89615A2A1733A1D60087FA3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Peck (P83C3BYK4B)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Peck (P83C3BYK4B)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
